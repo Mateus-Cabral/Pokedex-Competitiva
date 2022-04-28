@@ -58,7 +58,7 @@ public class Pokemon {
 	
 	/**
 	 * @param Level, Status for calc (hp, atk, def, spatk, spdef, spd), 
-	 * Nature, iv's and ev's for specific stat (min 1 | max 255 ev || min 0 | max 31 iv)
+	 * @param Nature, iv's and ev's for specific stat (min 1 | max 255 ev || min 0 | max 31 iv)
 	 */
 	public void calcStats(int level, String stat, String nature, int iv, int ev) {
 		// Calculo de stats:
